@@ -25,7 +25,8 @@
         box-sizing: border-box;
         padding: 0 112px;
         position: relative;  
-        color: white;         
+        background-attachment: fixed;  
+        color: white;
        }
 
    h1{
@@ -202,6 +203,8 @@
          flex-direction: column;
          justify-content: space-evenly;
          margin: 3rem 0;
+         background-color: white;
+         padding: 0 20px;
       }
 
       .card-container {
@@ -220,7 +223,7 @@
          align-items: center;
          justify-content: center;
          background-color: #60e1e0;
-         background-image: url();
+         background-image: url(../img/sergio.png);
          background-position: center;
          background-size: cover;
          background-repeat: no-repeat;
