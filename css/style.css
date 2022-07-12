@@ -200,7 +200,7 @@
          height: auto;
          width: 100;
          display: flex;
-         flex-direction: column;
+         flex-direction: row;
          justify-content: space-evenly;
          margin: 3rem 0;
          background-color: white;
@@ -228,9 +228,10 @@
          background-size: cover;
          background-repeat: no-repeat;
          filter: grayscale(0.5);
-         color: black;
+         color: white;
          cursor: pointer;
          transition: 0.5s ease-in-out;
+         border: 5px solid #ddd;
       }
 
       .card-text {
@@ -245,8 +246,14 @@
          justify-content: center;
          align-items: center;
          position: relative;
-         
       }
+      .card-1 {
+         background-image: url(../img/fundo-cardwrapper1.png);
+      }
+      .card-2 {
+         background-image: url(../img/fundo-cardwrapper2.png);
+      }
+      
 
       .card-wrapper::before {
          content: '';
@@ -266,6 +273,7 @@
          letter-spacing: 4px;
          margin: 0;
          transition: 0.5s ease-in-out;
+         background-color: rgba(0,0,0,0.5);
       }
 
       .card-wrapper p {
@@ -301,6 +309,7 @@
          align-items: center;
          justify-content: center;
          color: black;
+         font-size: 0.7rem;
       }
  
      
